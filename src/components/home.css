@@ -1,0 +1,136 @@
+/* General */
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f7fc;
+}
+
+/* Navbar */
+.navbar{
+    background:#272728 !important;
+}
+
+.navbar-brand,
+.nav-link{
+    color:white !important;
+    font-weight:bold;
+}
+
+.nav-link:hover{
+    color:#ffd700 !important;
+}
+
+/* Home Page */
+.home-container{
+    text-align:center;
+    margin-top:120px;
+}
+
+.home-container h1{
+    color:#777e89;
+    font-weight:bold;
+}
+
+.home-container p{
+    color:#555;
+    font-size:18px;
+    margin-top:15px;
+}
+
+.home-btn{
+    background:#0b0c0e;
+    color:white;
+    border:none;
+    padding:10px 25px;
+    border-radius:5px;
+    margin:10px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.home-btn:hover{
+    background:#084298;
+}
+
+/* Add Entry */
+.container{
+    margin-top:30px;
+}
+
+.heading{
+    text-align:center;
+    color:#0d6efd;
+    margin-bottom:30px;
+    font-weight:bold;
+}
+
+.form-label{
+    color:#000 !important;
+}
+
+.form-control{
+    margin-bottom:15px;
+    border-radius:5px;
+}
+
+.btn-submit{
+    width:100%;
+    background:#060606;
+    color:white;
+    border:none;
+    padding:10px;
+    border-radius:5px;
+    font-size:16px;
+}
+
+.btn-submit:hover{
+    background:#084298;
+    color:white;
+}
+
+/* View Entry */
+.table{
+    background:white;
+    margin-top:20px;
+}
+
+.table th{
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+}
+
+.table td{
+    text-align:center;
+    vertical-align:middle;
+}
+
+/* Alerts */
+.alert{
+    margin-top:20px;
+    text-align:center;
+    font-weight:bold;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+    .home-container{
+        margin-top:70px;
+        padding:20px;
+    }
+
+    .home-container h1{
+        font-size:30px;
+    }
+
+    .home-btn{
+        width:100%;
+        margin-top:10px;
+    }
+
+    .heading{
+        font-size:28px;
+    }
+}
